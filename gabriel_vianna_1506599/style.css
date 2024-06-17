@@ -1,0 +1,247 @@
+html {
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secoes ul li {
+    font-size: larger;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline;
+    padding-left: 30px;
+    
+}
+
+.secoes ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header h3 {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+@media (max-width: 992px) {
+    header {
+        top: 0px;
+        width: 100%;
+    }
+
+    .secoes ul li {
+        font-size: large;
+    }
+}
+
+@media (max-width: 530px) {
+    header {
+        top: 0px;
+        width: 100%;
+    }
+
+    .secoes ul li {
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 428px) {
+    header {
+        top: 0px;
+        width: 100%;
+    }
+
+    .secoes ul li {
+        font-size: small;
+    }
+}
+
+@media (max-width: 280px) {
+    .secoes ul li {
+        font-size: x-small;
+    }
+}
+
+
+
+
+
+
+/*Fim Cabeçalho*/
+
+/*Perfil*/
+
+.perfil {
+    padding-top: 20px;
+}
+
+.perfil h5 {
+    color: lightseagreen;
+}
+
+.perfil p {
+    font-size: small;
+}
+
+.site a {
+    color: black;
+}
+
+.redes-sociais {
+    padding-left: 40px ;
+    width: 70px;
+    padding-bottom: 10px;
+}
+
+.perfil div {
+    display: flex;
+}
+
+.perfil div .bio {
+    padding-left: 20px;
+    display: block;
+}
+
+.minha-foto{
+    width:150px;
+    padding: 2px;
+}
+
+
+/*Fim Perfil*/
+
+/*Repositórios*/
+
+.repositorios img {
+    width: 100%;
+}
+
+.repositorios a {
+    text-decoration: none;
+    color: black;
+}
+
+.repositorios {
+    padding-top: 20px;
+}
+
+.row {
+    padding: 10px;
+}
+
+/*Fim Repositórios*/
+
+/*Conteúdo Sugerido*/
+
+.conteudo-sugerido {
+    padding-top: 20px;
+}
+
+#carouselExampleCaptions {
+    padding: 10px;
+}
+
+/*Fim Conteúdo Sugerido*/
+
+/*Colegas de Trabalho*/
+
+.colegas-trabalho {
+    padding-top: 20px;
+}
+
+.colegas-trabalho div{
+    display: flex;
+
+}   
+
+.colegas-trabalho img{
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+
+
+.colegas-trabalho p {
+   font-weight: bold;
+}
+
+
+
+
+/*Fim Colegas de Trabalho*/
+
+
+/*Repo*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.repo ul li {
+    font-size: large;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline;
+    padding-left: 30px;
+}
+
+.repo a {
+    text-decoration: none;
+    color: black;
+}
+
+.descricao h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightseagreen;
+}
+
+.descricao a {
+    color: black;
+}
+
+.topicos {
+    display: inline-block;
+    padding: 5px 20px ;
+    background-color: aqua;
+}
+
+@media (max-width:280px) {
+    .repo ul li {
+        font-size: small;
+    }
+}
+
+
+
+/*Repo Main*/
+
+.info-repositorio {
+    padding-top: 20px;
+}
+
+
+/*Rodapé*/
+
+footer {
+    font-size: small;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+/*Fim Rodapé*/
