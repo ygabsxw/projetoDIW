@@ -1,0 +1,332 @@
+html {
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}	
+
+.navbar ul li {
+    font-size: larger;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 5px auto;
+    padding-left: 10px;
+    
+}
+
+.navbar button {
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}	
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.header h3 {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/*Fim Cabeçalho*/
+
+/*Perfil*/
+
+.perfil {
+    padding-top: 20px;
+}
+
+.perfil h5 {
+    color: lightseagreen;
+}
+
+.perfil p {
+    font-size: small;
+}
+
+.site a {
+    color: black;
+}
+
+.redes-sociais {
+    max-width: 40px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.perfil div {
+    display: flex;
+}
+
+.perfil div .bio {
+    display: block;
+}
+
+.minha-foto{
+    max-width: 200px;
+    width:100%;
+    max-height: 200px;
+    height: 100%;
+    padding: 2px;
+    margin-right: 30px;
+}
+
+
+/*Fim Perfil*/
+
+/*Repositórios*/
+
+.repositorios img {
+    width: 100%;
+}
+
+.repositorios a {
+    text-decoration: none;
+    color: black;
+}
+
+.repositorios {
+    padding-top: 20px;
+}
+
+.row {
+    padding: 10px;
+}
+
+/*Fim Repositórios*/
+
+/*Conteúdo Sugerido*/
+
+.conteudo-sugerido {
+    padding-top: 20px;
+}
+
+#carouselExampleCaptions {
+    padding: 10px;
+}
+
+/*Fim Conteúdo Sugerido*/
+
+/*Colegas de Trabalho*/
+
+.colegas-trabalho {
+    padding-top: 20px;
+}
+
+.colegas-trabalho div{
+    display: flex;
+
+}   
+
+.colegas-trabalho img{
+    max-width: 200px;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+
+
+.colegas-trabalho p {
+   font-weight: bold;
+}
+
+
+
+
+/*Fim Colegas de Trabalho*/
+
+
+/*Repo*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.repo ul li {
+    font-size: large;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline;
+    padding-left: 30px;
+}
+
+.repo a {
+    text-decoration: none;
+    color: black;
+}
+
+.descricao h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightseagreen;
+}
+
+.descricao a {
+    color: black;
+}
+
+.topicos {
+    display: inline-block;
+    padding: 5px 20px ;
+    background-color: aqua;
+}
+
+
+
+
+/*Repo Main*/
+
+.info-repositorio {
+    padding-top: 20px;
+}
+
+
+/*Rodapé*/
+
+footer {
+    font-size: small;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+/*Fim Rodapé*/
+
+
+@media (min-width:601px ) and (max-width: 992px) {
+
+
+    .secoes ul li {
+        font-size: large;
+    }
+
+    .minha-foto{
+        max-width: 180px;
+        max-height: 180px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 429px) and (max-width: 600px) {
+    .secoes ul li {
+        font-size: medium;
+    }
+
+    .header h3 {
+        font-size: 35px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .perfil div {
+        display: block;
+        text-align: center;;
+        justify-content: center;
+        margin: 5px auto;
+
+    }
+
+    .minha-foto{
+        max-width: 160px;
+        max-height: 160px;
+    }
+
+}
+
+@media (min-width:281px) and (max-width: 428px) {
+
+    .secoes ul li {
+        font-size: small;
+    }
+
+    .header h3 {
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .perfil div {
+        display: block;
+        text-align: center;;
+        justify-content: center;
+        margin: 5px auto;
+
+    }
+
+    .minha-foto{
+        max-width: 130px;
+        max-height: 130px;
+    }
+}
+
+@media (max-width: 280px) {
+    .secoes ul li {
+        font-size: x-small;
+    }
+
+    .header h3 {
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .perfil div {
+        display: block;
+        text-align: center;;
+        justify-content: center;
+        margin: 5px auto;
+
+    }
+
+    .minha-foto{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .repo ul li {
+        font-size: small;
+    }
+}
