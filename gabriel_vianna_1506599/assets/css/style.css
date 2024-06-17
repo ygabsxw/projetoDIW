@@ -160,6 +160,9 @@ header {
     color: black;
     border-radius: 50%;
     max-width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
