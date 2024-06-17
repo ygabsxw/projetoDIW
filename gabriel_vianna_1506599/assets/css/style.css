@@ -52,8 +52,6 @@ header {
     color: black;
 }
 
-
-
 .header h3 {
     background-color: lightgray;
     padding: 10px;
@@ -149,7 +147,9 @@ header {
 
 .colegas-trabalho div{
     display: flex;
-
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }   
 
 .colegas-trabalho img{
@@ -158,7 +158,6 @@ header {
     padding-bottom: 10px;
     font-size: 15px;
     color: black;
-    display: flex;
     border-radius: 50%;
     max-width: 30%;
 }
@@ -177,24 +176,6 @@ header {
 
 /*Repo*/
 
-header {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.repo ul li {
-    font-size: large;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    display: inline;
-    padding-left: 30px;
-}
-
-.repo a {
-    text-decoration: none;
-    color: black;
-}
 
 .descricao h5 {
     padding-top: 10px;
@@ -228,6 +209,9 @@ footer {
     font-size: small;
     padding-top: 50px;
     padding-left: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 /*Fim Rodapé*/
@@ -238,6 +222,13 @@ footer {
 
     .secoes ul li {
         font-size: large;
+    }
+
+    .header h3 {
+        font-size: 45px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .minha-foto{
