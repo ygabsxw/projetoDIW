@@ -7,6 +7,7 @@ html {
 
 .header {
     display: flex;
+    margin: 0 auto;
 }
 
 .navbar {
@@ -52,6 +53,9 @@ html {
 .header h3 {
     background-color: lightgray;
     padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 /*Fim Cabeçalho*/
@@ -222,10 +226,9 @@ footer {
 @media (min-width:601px ) and (max-width: 992px) {
 
     .header {
-        display: inline-block;
         text-align: center;
         justify-content: center;
-        flex-direction: center;
+        flex-direction: column;
         margin: 0 auto;
     } 
 
@@ -255,7 +258,7 @@ footer {
     .header {
         text-align: center;
         justify-content: center;
-        flex-direction: center;
+        flex-direction: column;
         margin: 0 auto;
     }
 
@@ -301,7 +304,7 @@ footer {
     .header {
         text-align: center;
         justify-content: center;
-        flex-direction: center;
+        flex-direction: column;
         margin: 0 auto;
     }
 
@@ -345,7 +348,7 @@ footer {
     .header {
         text-align: center;
         justify-content: center;
-        flex-direction: center;
+        flex-direction: column;
         margin: 0 auto;
     }
     
