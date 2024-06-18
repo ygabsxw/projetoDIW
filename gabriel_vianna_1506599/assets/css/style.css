@@ -13,6 +13,8 @@ header {
     margin: 0 auto;
 }
 
+
+
 .navbar {
     background-color: lightgray;
     padding: 10px;
@@ -30,7 +32,7 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: block;
+    display: flex;
     margin: 5px auto;
     padding-left: 10px;
     
@@ -107,6 +109,8 @@ header {
 /*Fim Perfil*/
 
 /*Repositórios*/
+
+
 
 .repositorios img {
     width: 100%;
@@ -266,6 +270,13 @@ footer {
         max-height: 160px;
     }
 
+    .colegas-trabalho div{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
 }
 
 @media (min-width:281px) and (max-width: 428px) {
@@ -292,6 +303,13 @@ footer {
     .minha-foto{
         max-width: 130px;
         max-height: 130px;
+    }
+
+    .colegas-trabalho div{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
 
@@ -322,5 +340,12 @@ footer {
 
     .repo ul li {
         font-size: small;
+    }
+
+    .colegas-trabalho div{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
