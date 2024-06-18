@@ -7,13 +7,7 @@ html {
 
 .header {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
 }
-
-
 
 .navbar {
     background-color: lightgray;
@@ -33,8 +27,8 @@ html {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin: 5px auto;
-    padding-left: 10px;
+    margin: 0 auto;
+    padding-left: 30px;
     
 }
 
@@ -52,15 +46,12 @@ html {
 .navbar ul li a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 .header h3 {
     background-color: lightgray;
     padding: 10px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
 }
 
 /*Fim Cabeçalho*/
@@ -142,7 +133,7 @@ html {
     padding: 10px;
 }
 
-.conteudo-sugerido img{
+.conteudo-sugerido img {
     width: 100%;
 }
 
@@ -230,6 +221,17 @@ footer {
 
 @media (min-width:601px ) and (max-width: 992px) {
 
+    .header {
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        flex-direction: center;
+        margin: 0 auto;
+    } 
+
+    .navbar ul li{
+        padding: 5px;
+    }
 
     .secoes ul li {
         font-size: large;
@@ -250,6 +252,17 @@ footer {
 }
 
 @media (min-width: 429px) and (max-width: 600px) {
+    .header {
+        text-align: center;
+        justify-content: center;
+        flex-direction: center;
+        margin: 0 auto;
+    }
+
+    .navbar ul li{
+        padding: 5px;
+    }
+    
     .secoes ul li {
         font-size: medium;
     }
@@ -263,7 +276,7 @@ footer {
 
     .perfil div {
         display: block;
-        text-align: center;;
+        text-align: center;
         justify-content: center;
         margin: 5px auto;
 
@@ -285,6 +298,17 @@ footer {
 
 @media (min-width:281px) and (max-width: 428px) {
 
+    .header {
+        text-align: center;
+        justify-content: center;
+        flex-direction: center;
+        margin: 0 auto;
+    }
+
+    .navbar ul li{
+        padding: 5px;
+    }
+
     .secoes ul li {
         font-size: small;
     }
@@ -298,7 +322,7 @@ footer {
 
     .perfil div {
         display: block;
-        text-align: center;;
+        text-align: center;
         justify-content: center;
         margin: 5px auto;
 
@@ -318,6 +342,17 @@ footer {
 }
 
 @media (max-width: 280px) {
+    .header {
+        text-align: center;
+        justify-content: center;
+        flex-direction: center;
+        margin: 0 auto;
+    }
+    
+    .navbar ul li{
+        padding: 5px;
+    }
+
     .secoes ul li {
         font-size: x-small;
     }
