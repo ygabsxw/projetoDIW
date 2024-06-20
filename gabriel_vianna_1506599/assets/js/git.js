@@ -5,15 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => { 
             perfilConteiner.innerHTML += `
-            <div class="perfil">
-                <img src="${data.avatar_url}" alt="imagem de perfil" class="imagem">
-                <h5 class="nome">${data.name}</h5>
-                <p class="bio">Olá, meu nome é Gabriel Diniz Reis Vianna, tenho 18 anos e estou cursando Ciências da computação na PUC, Comecei na programação em 2024 juntamente ao ingressar na faculdade. Tenho conhecimento das linguagens HTML, CSS, Java Script, C e C++, além de possuir ingles intermédiario.</p>
-                <p class="location"></p>${data.location}</p>
-                <p class="seguidores">${data.followers}</p>
-                <a href="https://www.facebook.com/?locale=pt_BR"><img  class="redes-sociais" src="assets/imgs/facebook.png"></a>
-                <a href="https://twitter.com/home?lang=pt-br"><img class="redes-sociais" src="assets/imgs/twitter.png"></a>
-                <a href="https://www.instagram.com/gabrieldinizv/"><img class="redes-sociais" src="assets/imgs/instagram.png"></a>
+            <div class="infos">
+                <img src="${data.avatar_url}" alt="imagem de perfil" class="minha-foto">
+                <div>
+                    <h5 class="nome">${data.name}</h5>
+                    <p class="bio">Olá, meu nome é Gabriel Diniz Reis Vianna, tenho 18 anos e estou cursando Ciências da computação na PUC, Comecei na programação em 2024 juntamente ao ingressar na faculdade. Tenho conhecimento das linguagens HTML, CSS, Java Script, C e C++, além de possuir ingles intermédiario.</p>
+                    <p class="location"></p>${data.location}</p>
+                    <p class="seguidores"><i class="ph ph-users"></i>${data.followers}</p>
+                    <a href="https://www.facebook.com/?locale=pt_BR"><img class="redes-sociais" src="assets/imgs/facebook.png"></a>
+                    <a href="https://twitter.com/home?lang=pt-br"><img class="redes-sociais" src="assets/imgs/twitter.png"></a>
+                    <a href="https://www.instagram.com/gabrieldinizv/"><img class="redes-sociais" src="assets/imgs/instagram.png"></a>
+                </div>
             </div>
             `
         })

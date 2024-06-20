@@ -74,23 +74,22 @@ html {
     font-size: small;
 }
 
-.site a {
-    color: black;
-}
-
 .redes-sociais {
     max-width: 40px;
     width: 100%;
     padding-bottom: 10px;
 }
 
-.perfil div {
+.infos {
     display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
-.perfil div .bio {
+.infos p {
     display: block;
 }
+
 
 .minha-foto{
     max-width: 200px;
@@ -106,11 +105,6 @@ html {
 
 /*Repositórios*/
 
-
-
-.repositorios img {
-    width: 100%;
-}
 
 .repositorios a {
     text-decoration: none;
