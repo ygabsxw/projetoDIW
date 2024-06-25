@@ -22,7 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
         infoRepositoriosContainer.innerHTML += `
             <div class="repos">
                 <h4 class="titulo-repositorio border-bottom border-dark border-2 pb-1">${repo.name}</h4>
-                <p class="repo-description">${repo.description}</p>
+                <div class="repo-description">
+                    <h6>Descrição</h6>
+                    <p class="repo-description">${repo.description}</p>
+                </div>
                 <div class="repo-created">
                     <h6>Criado em</h6>
                     <p>${new Date(repo.created_at).toLocaleDateString()}</p>

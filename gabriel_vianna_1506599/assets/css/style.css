@@ -74,12 +74,6 @@ html {
     font-size: small;
 }
 
-.redes-sociais {
-    max-width: 40px;
-    width: 100%;
-    padding-bottom: 10px;
-}
-
 .infos {
     display: flex;
     gap: 10px;
@@ -106,6 +100,16 @@ html {
 .infos i {
     font-size: 20px;
     color: lightseagreen;
+}
+
+.infos a {
+    text-decoration: none;
+}
+
+.infos a i {
+    padding-bottom: 10px;
+    color: lightseagreen;
+    font-size: 35px;
 }
 
 
@@ -222,48 +226,43 @@ html {
 /*Repo*/
 
 
-.descricao p {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: lightseagreen;
-}
-
-.descricao a {
-    color: black;
-}
-
-.repo-created h6 {
+.repos h6 {
     font-size: 23px;
+    color: lightseagreen;
+    padding: 10px;
+}
+
+.repo-description p {
+    font-size: 20px;
+    margin: 10px 0 20px 20px;
 }
 
 .repo-created p {
-    padding: 5px 20px ;
+    font-size: 20px;
+    margin: 10px 0 20px 20px;
 }
 
-.link-git h6 {
-    font-size: 23px;
-}
 
 .link-git a {
-    padding: 5px 20px ;
+    font-size: 20px;
+    margin: 10px 0 20px 20px;
     color: lightseagreen;
 }
 
-.repo-language h6 {
-    font-size: 23px;
-}
 
 .repo-language p {
     display: inline-block;
+    margin: 10px 0 20px 20px;
     padding: 5px 20px ;
-    background-color: aqua;
+    background-color: lightseagreen;
     border: 2px solid;
     border-radius: 20px;
+    color: white;
 }
 
 .repos i {
-    font-size: 20px;
+    padding: 20px 5px 10px 20px;
+    font-size: 30px;
 }
 
 
