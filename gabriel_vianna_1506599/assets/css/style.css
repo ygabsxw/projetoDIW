@@ -213,10 +213,33 @@ html {
     color: black;
 }
 
-.topicos {
+.repo-created h6 {
+    font-size: 23px;
+}
+
+.repo-created p {
+    padding: 5px 20px ;
+}
+
+.link-git h6 {
+    font-size: 23px;
+}
+
+.link-git a {
+    padding: 5px 20px ;
+    color: lightseagreen;
+}
+
+.repo-language h6 {
+    font-size: 23px;
+}
+
+.repo-language p {
     display: inline-block;
     padding: 5px 20px ;
     background-color: aqua;
+    border: 2px solid;
+    border-radius: 20px;
 }
 
 .repos i {

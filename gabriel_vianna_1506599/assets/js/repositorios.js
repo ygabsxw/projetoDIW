@@ -23,6 +23,18 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="repos">
                 <h4 class="titulo-repositorio border-bottom border-dark border-2 pb-1">${repo.name}</h4>
                 <p class="repo-description">${repo.description}</p>
+                <div class="repo-created">
+                    <h6>Criado em</h6>
+                    <p>${new Date(repo.created_at).toLocaleDateString()}</p>
+                </div>
+                <div class="link-git">
+                    <h6>Link GitHub</h6>
+                    <a href="${repo.html_url}" target="_blank">${repo.html_url}</a>
+                </div>
+                <div class="repo-language">
+                    <h6>Linguagem</h6>
+                    <p>${repo.language}</p>
+                </div>
                 <div>
                     <span><i class="ph ph-git-fork"></i>${repo.forks_count}</span>
                     <span><i class="ph ph-star"></i>${repo.stargazers_count}</span>
