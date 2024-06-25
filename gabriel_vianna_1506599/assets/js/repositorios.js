@@ -21,27 +21,33 @@ document.addEventListener('DOMContentLoaded', function () {
     function mostraRepo(repo) {
         infoRepositoriosContainer.innerHTML += `
             <div class="repos">
-                <h4 class="titulo-repositorio border-bottom border-dark border-2 pb-1">${repo.name}</h4>
-                <div class="repo-description">
-                    <h6>Descrição</h6>
-                    <p class="repo-description">${repo.description}</p>
-                </div>
-                <div class="repo-created">
-                    <h6>Criado em</h6>
-                    <p>${new Date(repo.created_at).toLocaleDateString()}</p>
-                </div>
-                <div class="link-git">
-                    <h6>Link GitHub</h6>
-                    <a href="${repo.html_url}" target="_blank">${repo.html_url}</a>
-                </div>
-                <div class="repo-language">
-                    <h6>Linguagem</h6>
-                    <p>${repo.language}</p>
-                </div>
-                <div>
-                    <span><i class="ph ph-git-fork"></i>${repo.forks_count}</span>
-                    <span><i class="ph ph-star"></i>${repo.stargazers_count}</span>
-                </div>
+            <h4 class="titulo-repositorio border-bottom border-dark border-2 pb-1">${repo.name}</h4>
+            <div class="repo-description">
+                <h6>Descrição</h6>
+                <p class="repo-description">${repo.description}</p>
+            </div>
+            <div class="repo-created">
+                <h6>Criado em</h6>
+                <p>${new Date(repo.created_at).toLocaleDateString()}</p>
+            </div>
+            <div class="link-git">
+                <h6>Link GitHub</h6>
+                <a href="${repo.html_url}" target="_blank">${repo.html_url}</a>
+            </div>
+            <div class="repo-language">
+                <h6>Linguagem</h6>
+                <p>${repo.language}</p>
+            </div>
+            <div class="repo-topics">
+                <h6>Tópicos</h6>
+                <ul>
+                ${repo.topics.map(topic => `<li>${topic}</li>`).join('')}
+                </ul>
+            </div>
+            <div>
+                <span><i class="ph ph-git-fork"></i>${repo.forks_count}</span>
+                <span><i class="ph ph-star"></i>${repo.stargazers_count}</span>
+            </div>
             </div>
         `;
     }

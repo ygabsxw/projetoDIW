@@ -12,9 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="bio">Olá, meu nome é Gabriel Diniz Reis Vianna, tenho 18 anos e estou cursando Ciências da computação na PUC, Comecei na programação em 2024 juntamente ao ingressar na faculdade. Tenho conhecimento das linguagens HTML, CSS, Java Script, C e C++, além de possuir ingles intermédiario.</p>
                     <p class="location"></p>${data.location}</p>
                     <p class="seguidores"><i class="ph ph-users"></i>${data.followers}</p>
-                    <a href="mailto:gabrieldrvianna@gmail.com"><i class="ph ph-envelope redes-sociais"></i></a>
-                    <a href="https://github.com/ygabsxw"><i class="ph ph-github-logo redes-sociais"></i></a>
-                    <a href="https://www.instagram.com/gabrieldinizv/"><i class="ph ph-instagram-logo redes-sociais"></i></a>
+                    <a href="mailto:gabrieldrvianna@gmail.com"><i class="ph ph-envelope"></i></a>
+                    <a href="https://github.com/ygabsxw"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://www.linkedin.com/in/gabriel-diniz-0877b52b7/"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="https://www.instagram.com/gabrieldinizv/"><i class="ph ph-instagram-logo"></i></a>
                     
                 </div>
             </div>

@@ -156,7 +156,7 @@ html {
 }
 
 .sugeridos-box {
-    max-width: 1000px;
+    max-width: 800px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -190,6 +190,7 @@ html {
 .colegas-texto {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-gap: 20px;
 }
 
 .imagens-colegas {
@@ -260,6 +261,16 @@ html {
     color: white;
 }
 
+.repo-topics ul li {
+    display: inline-block;
+    margin: 10px  0 20px 10px;
+    padding: 5px 20px ;
+    background-color: lightseagreen;
+    border: 2px solid;
+    border-radius: 20px;
+    color: white;
+}
+
 .repos i {
     padding: 20px 5px 10px 20px;
     font-size: 30px;
@@ -277,14 +288,15 @@ html {
 
 footer {
     font-size: small;
-    padding-top: 50px;
-    padding-left: 30px;
     text-align: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
+    font-weight: bold;
 }
 
 /*Fim Rodapé*/
+
+/*Responsividade*/
 
 @media (min-width:601px ) and (max-width: 992px) {
 
@@ -318,6 +330,10 @@ footer {
 
     .infos p {
         font-size: 15px;
+    }
+
+    .sugeridos-box {
+        max-width: 600px;
     }
 }
 
@@ -365,7 +381,7 @@ footer {
         display: block;
         text-align: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 20px auto 0 auto;
     }
 
 }
