@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         data.forEach(repo => {
             repositoriosContainer.innerHTML += `
                 <div class="col">
-                    <div class="card">
+                    <div class="card caixa">
                       <a href="./repo.html?id=${repo.id}">
                           <div class="card-body">
                             <h5 class="card-title">${repo.name}</h5>
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 document.addEventListener('DOMContentLoaded', () => {
-    const colegasContainer = document.getElementById('colegas-trabalho')
+    const colegasContainer = document.getElementById('colegas-texto')
 
     fetch('https://29f9f73c-46af-4991-b0b0-977c1a3e3ca7-00-3fkpjx9ws74cr.kirk.replit.dev/colegas')
     .then(response => response.json())

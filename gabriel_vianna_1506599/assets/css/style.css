@@ -127,6 +127,22 @@ html {
     padding: 10px;
 }
 
+#repo-infos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.caixa {
+    min-height: 180px;
+}
+
 /*Fim Repositórios*/
 
 /*Conteúdo Sugerido*/
@@ -165,8 +181,12 @@ html {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    max-width: 400px;
 }   
+
+.colegas-texto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
 
 .imagens-colegas {
     justify-content: center;
