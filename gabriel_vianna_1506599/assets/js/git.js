@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             repositoriosContainer.innerHTML += `
                 <div class="col">
                     <div class="card">
-                      <a href="./repo.html">
+                      <a href="./repo.html?id=${repo.id}">
                           <div class="card-body">
                             <h5 class="card-title">${repo.name}</h5>
                             <p class="card-text">${repo.description}</p>
